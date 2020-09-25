@@ -1,4 +1,4 @@
-var _SMSMESSAGETRACKING = {
+{
     CustomerKey: "DATAVIEW_SMSMESSAGETRACKING", 
     Name       : "DATAVIEW_SMSMESSAGETRACKING",
     Fields: [
