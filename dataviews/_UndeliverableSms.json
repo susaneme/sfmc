@@ -1,0 +1,31 @@
+{
+    "CustomerKey" : "DATAVIEW_UndeliverableSms", 
+    "Name"       : "DATAVIEW__UndeliverableSms",
+    "Fields" : [
+        {
+            "Name": "MobileNumber",
+            "IsRequired": true,
+            "FieldType": "Phone"
+        },
+        {
+            "Name": "Undeliverable",
+            "IsRequired": true,
+            "FieldType": "Boolean"
+        },
+        {
+            "Name": "BounceCount",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "FirstBounceDate",
+            "IsRequired": true,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "HoldDate",
+            "IsRequired": false,
+            "FieldType": "Date"
+        }
+    ]
+}
