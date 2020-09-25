@@ -184,16 +184,3 @@ var _SMSMESSAGETRACKING = {
         }
     ]
 }
-
-/* 
-* Fields structure
-*  {
-*            Name         : "SomeID",
-*            IsRequired   : true,
-*            IsPrimaryKey : false,
-*            FieldType    : "Text",
-*            DefaultValue : "GetDate()",
-*            Maxlength    : 50,
-*  }
-*
-*/
