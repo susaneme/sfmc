@@ -1,0 +1,74 @@
+{
+    "CustomerKey" : "DATAVIEW_SMSSubscriptionLog", 
+    "Name"       : "DATAVIEW_SMSSubscriptionLog",
+    "Fields" : [
+        {
+            "Name": "LogDate",
+            "IsRequired": false,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "SubscriberKey",
+            "IsRequired": true,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "MobileSubscriptionID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SubscriptionDefinitionID",
+            "IsRequired": true,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "MobileNumber",
+            "IsRequired": false,
+            "FieldType": "Phone"
+        },
+        {
+            "Name": "OptOutStatusID",
+            "IsRequired": false,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "OptOutMethodID",
+            "IsRequired": false,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "OptOutDate",
+            "IsRequired": false,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "OptInStatusID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "OptInMethodID",
+            "IsRequired": false,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "OptInDate",
+            "IsRequired": false,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Source",
+            "IsRequired": false,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "CreatedDate",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "ModifiedDate",
+            "FieldType": "Date"
+        }
+    ]
+}
