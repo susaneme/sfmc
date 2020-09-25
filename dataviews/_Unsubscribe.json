@@ -1,0 +1,58 @@
+{
+    "CustomerKey" : "DATAVIEW_Unsubscribe", 
+    "Name"       : "DATAVIEW_Unsubscribe",
+    "Fields" : [
+        {
+            "Name": "AccountID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "OYBAccountID",
+            "IsRequired": false,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "JobID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "ListID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "BatchID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SubscriberID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SubscriberKey",
+            "IsRequired": true,
+            "MaxLength": 254,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "EventDate",
+            "IsRequired": true,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "IsUnique",
+            "IsRequired": true,
+            "FieldType": "Boolean"
+        },
+        {
+            "Name": "Domain",
+            "IsRequired": true,
+            "MaxLength": 128,
+            "FieldType": "Text"
+        }
+    ]
+}
