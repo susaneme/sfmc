@@ -4,7 +4,6 @@
     "Fields" : [
         {
             "Name": "LogDate",
-            "IsRequired": false,
             "FieldType": "Date"
         },
         {
@@ -24,22 +23,18 @@
         },
         {
             "Name": "MobileNumber",
-            "IsRequired": false,
             "FieldType": "Phone"
         },
         {
             "Name": "OptOutStatusID",
-            "IsRequired": false,
             "FieldType": "Number"
         },
         {
             "Name": "OptOutMethodID",
-            "IsRequired": false,
             "FieldType": "Number"
         },
         {
             "Name": "OptOutDate",
-            "IsRequired": false,
             "FieldType": "Date"
         },
         {
@@ -49,17 +44,14 @@
         },
         {
             "Name": "OptInMethodID",
-            "IsRequired": false,
             "FieldType": "Number"
         },
         {
             "Name": "OptInDate",
-            "IsRequired": false,
             "FieldType": "Date"
         },
         {
             "Name": "Source",
-            "IsRequired": false,
             "FieldType": "Number"
         },
         {
