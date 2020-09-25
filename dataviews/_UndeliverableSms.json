@@ -1,6 +1,6 @@
 {
     "CustomerKey" : "DATAVIEW_UndeliverableSms", 
-    "Name"       : "DATAVIEW_UndeliverableSms",
+    "Name"        : "DATAVIEW_UndeliverableSms",
     "Fields" : [
         {
             "Name": "MobileNumber",
