@@ -1,6 +1,6 @@
 {
-    "CustomerKey" : "DATAVIEW_SMSMESSAGETRACKING", 
-    "Name"       : "DATAVIEW_SMSMESSAGETRACKING",
+    "CustomerKey" : "DATAVIEW_SMSMessageTracking", 
+    "Name"       : "DATAVIEW_SMSMessageTracking",
     "Fields" : [
         {
             "Name": "MobileMessageTrackingID",
