@@ -10,7 +10,6 @@
         {
             "Name": "SubscriberKey",
             "IsRequired": true,
-            "Maxlength" : 254,
             "FieldType": "Text"
         },
         {
