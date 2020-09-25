@@ -22,7 +22,6 @@
             "Name": "SubscriptionDefinitionID",
             "IsPrimaryKey" : true,
             "IsRequired": true,
-            "Maxlength" : 254,
             "FieldType": "Text"
         },
         {
