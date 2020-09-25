@@ -9,7 +9,6 @@
         },
         {
             "Name": "OYBAccountID",
-            "IsRequired": false,
             "FieldType": "Number"
         },
         {
