@@ -179,7 +179,7 @@ var _SMSMESSAGETRACKING = {
         },
         {
             Name: "SFMCLastModified",
-          	DefaultValue: "GetDate()",
+            DefaultValue: "GetDate()",
             FieldType: "Date"
         }
     ]
