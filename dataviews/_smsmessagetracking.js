@@ -1,4 +1,4 @@
- var _SMSMESSAGETRACKING = {
+var _SMSMESSAGETRACKING = {
     CustomerKey: "DATAVIEW_SMSMESSAGETRACKING", 
     Name       : "DATAVIEW_SMSMESSAGETRACKING",
     Fields: [
@@ -179,7 +179,7 @@
         },
         {
             Name: "SFMCLastModified",
-            DefaultValue: "GetDate()",
+          	DefaultValue: "GetDate()",
             FieldType: "Date"
         }
     ]
