@@ -1,6 +1,6 @@
 {
     "CustomerKey" : "DATAVIEW_SMSSubscriptionLog", 
-    "Name"       : "DATAVIEW_SMSSubscriptionLog",
+    "Name"        : "DATAVIEW_SMSSubscriptionLog",
     "Fields" : [
         {
             "Name": "LogDate",
