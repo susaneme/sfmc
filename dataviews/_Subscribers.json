@@ -27,7 +27,7 @@
         {
             "Name": "EmailAddress",
             "IsRequired": true,
-            "FieldType": "Email"
+            "FieldType": "EmailAddress"
         },
         {
             "Name": "SubscriberKey",
