@@ -1,0 +1,59 @@
+{
+    "CustomerKey" : "DATAVIEW_Subscribers", 
+    "Name"        : "DATAVIEW_Subscribers",
+    "Fields" : [
+        {
+            "Name": "SubscriberID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "DateUndeliverable",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "DateJoined",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "DateUnsubscribed",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Domain",
+            "MaxLength": 254,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "EmailAddress",
+            "IsRequired": true,
+            "FieldType": "Email"
+        },
+        {
+            "Name": "SubscriberKey",
+            "IsRequired": true,
+            "MaxLength": 254,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "BounceCount",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SubscriberType",
+            "IsRequired": true,
+            "MaxLength": 100,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Status",
+            "MaxLength": 12,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Locale",
+            "FieldType": "Locale"
+        }
+    ]
+}
