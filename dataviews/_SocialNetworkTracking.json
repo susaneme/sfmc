@@ -1,0 +1,113 @@
+{
+    "CustomerKey" : "DATAVIEW_SocialNetworkTracking", 
+    "Name"        : "DATAVIEW_SocialNetworkTracking",
+    "Fields" : [
+        {
+            "Name": "SubscriberID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SubscriberKey",
+            "IsRequired": true,
+            "MaxLength": 254,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "ListID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "BatchID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SocialSharingSiteID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SiteName",
+            "IsRequired": true,
+            "MaxLength": 254,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "CountryCode",
+            "IsRequired": true,
+            "FieldType": "Text"
+        },
+        
+        {
+            "Name": "PublishedSocialContentID",
+            "IsRequired": true,
+            "MaxLength": 50,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "RegionTitle",
+            "IsRequired": true,
+            "MaxLength": 100,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "RegionDescription",
+            "MaxLength": 254,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "RegionHTML",
+            "MaxLength": 254,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "ContentRegionID",
+            "MaxLength": 254,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "OYBMemberID",
+            "FieldType": "Number"
+        },
+        {
+            "Name": "TransactionTime",
+            "IsRequired": true,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "IsUnique",
+            "IsRequired": true,
+            "FieldType": "Boolean"
+        },
+        {
+            "Name": "Domain",
+            "IsRequired": true,
+            "MaxLength": 50,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "PublishedSocialContentStatusID",
+            "IsRequired": true,
+            "MaxLength": 100,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "ShortCode",
+            "IsRequired": true,
+            "MaxLength": 50,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "PublishTime",
+            "IsRequired": true,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
+        }
+    ]
+}
