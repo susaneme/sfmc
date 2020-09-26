@@ -9,7 +9,7 @@
         },
         {
             "Name": "CurrentTimeCEST",
-            "DefaultValue" : "GetDate()+7",
+            "DefaultValue" : "DATEADD(hh, 7, getDate())",
             "FieldType": "Date"
         }
     ]
