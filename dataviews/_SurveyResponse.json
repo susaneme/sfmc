@@ -1,0 +1,104 @@
+{
+    "CustomerKey" : "DATAVIEW_SurveyResponse", 
+    "Name"        : "DATAVIEW_SurveyResponse",
+    "Fields" : [
+        {
+            "Name": "AccountID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "OYBAccountID",
+            "FieldType": "Number"
+        },
+        {
+            "Name": "JobID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "ListID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "BatchID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SubscriberID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SubscriberKey",
+            "IsRequired": true,
+            "MaxLength": 254,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "EventDate",
+            "IsRequired": true,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Domain",
+            "IsRequired": true,
+            "MaxLength": 128,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "SurveyID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SurveyName",
+            "IsRequired": true,
+            "MaxLength": 100,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "IsUnique",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "QuestionID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "QuestionName",
+            "IsRequired": true,
+            "MaxLength": 50,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Question",
+            "IsRequired": true,
+            "MaxLength": 4000,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "AnswerID",
+            "FieldType": "Number"
+        },
+        {
+            "Name": "AnswerName",
+            "MaxLength": 4000,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Answer",
+            "MaxLength": 4000,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "AnswerData",
+            "MaxLength": 4000,
+            "FieldType": "Text"
+        }
+    ]
+}
