@@ -54,6 +54,11 @@
         {
             "Name": "Locale",
             "FieldType": "Locale"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
         }
     ]
 }
