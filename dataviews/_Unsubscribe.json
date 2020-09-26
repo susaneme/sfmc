@@ -52,6 +52,11 @@
             "IsRequired": true,
             "MaxLength": 128,
             "FieldType": "Text"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
         }
     ]
 }
