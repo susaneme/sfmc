@@ -26,6 +26,11 @@
             "Name": "HoldDate",
             "IsRequired": false,
             "FieldType": "Date"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
         }
     ]
 }
