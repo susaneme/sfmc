@@ -1,0 +1,16 @@
+{
+    "CustomerKey" : "DATAVIEW_TestTimeZone", 
+    "Name"        : "DATAVIEW_TestTimeZone",
+    "Fields" : [
+        {
+            "Name": "CurrentTimeCST",
+            "DefaultValue" : "GetDate()",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "CurrentTimeCEST",
+            "DefaultValue" : "DateAdd(HH,7,GetDate())",
+            "FieldType": "Date"
+        }
+    ]
+}
