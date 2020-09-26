@@ -99,6 +99,11 @@
             "Name": "AnswerData",
             "MaxLength": 4000,
             "FieldType": "Text"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
         }
     ]
 }
