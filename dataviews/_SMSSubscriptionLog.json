@@ -61,6 +61,11 @@
         {
             "Name": "ModifiedDate",
             "FieldType": "Date"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
         }
     ]
 }
