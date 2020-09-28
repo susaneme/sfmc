@@ -1,0 +1,78 @@
+{
+    "CustomerKey" : "DATAVIEW_ListSubscribers", 
+    "Name"       : "DATAVIEW_ListSubscribers",
+    "Fields" : [
+        {
+            "Name": "AddedBy",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "AddMethod",
+            "IsRequired": true,
+            "MaxLength": 17,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "CreatedDate",
+            "IsRequired": false,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "DateUnsubscribed",
+            "IsRequired": false,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "EmailAddress",
+            "IsRequired": false,
+            "MaxLength": 254,
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "ListID",
+            "IsRequired": false,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "ListName",
+            "IsRequired": false,
+            "MaxLength": 50,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "ListType",
+            "IsRequired": true,
+            "MaxLength": 16,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Status",
+            "IsRequired": false,
+            "MaxLength": 12,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "SubscriberID",
+            "IsRequired": false,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SubscriberKey",
+            "IsRequired": false,
+            "MaxLength": 254,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "SubscriberType",
+            "IsRequired": false,
+            "MaxLength": 100,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
+        }
+    ]
+}
