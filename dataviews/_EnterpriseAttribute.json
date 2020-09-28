@@ -1,0 +1,11 @@
+{
+    "CustomerKey" : "DATAVIEW_EnterpriseAttribute", 
+    "Name"       : "DATAVIEW_EnterpriseAttribute",
+    "Fields" : [
+        {
+            "Name": "_SubscriberID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        }
+    ]
+}
