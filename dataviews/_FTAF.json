@@ -1,0 +1,74 @@
+{
+    "CustomerKey" : "DATAVIEW_FTAF", 
+    "Name"       : "DATAVIEW_FTAF",
+    "Fields" : [
+        {
+            "Name": "AccountID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "OYBAccountID",
+            "IsRequired": false,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "JobID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "ListID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "BatchID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SubscriberID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SubscriberKey",
+            "IsRequired": true,
+            "MaxLength" : 254,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "TransactionTime",
+            "IsRequired": true,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Domain",
+            "IsRequired": true,
+            "MaxLength" : 128,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "IsUnique",
+            "IsRequired": true,
+            "FieldType": "Boolean"
+        },
+        {
+            "Name": "TriggererSendDefinitionObjectID",
+            "IsRequired": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "TriggeredSendCustomerKey",
+            "IsRequired": false,
+            "MaxLength": 36,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
+        }
+    ]
+}
