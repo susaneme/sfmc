@@ -1,0 +1,215 @@
+{
+    "CustomerKey" : "DATAVIEW_Job", 
+    "Name"       : "DATAVIEW_Job",
+    "Fields" : [
+        {
+            "Name": "JobID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "EmailID",
+            "IsRequired": false,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "AccountID",
+            "IsRequired": false,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "AccountUserID",
+            "IsRequired": false,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "FromName",
+            "IsRequired": false,
+            "MaxLength" : 130,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "FromEmail",
+            "IsRequired": false,
+            "MaxLength" : 100,
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "SchedTime",
+            "IsRequired": false,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "PickupTime",
+            "IsRequired": false,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "DeliveredTime",
+            "IsRequired": false,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "EventID",
+            "IsRequired": false,
+            "MaxLength": 50,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "IsMultipart",
+            "IsRequired": true,
+            "FieldType": "Boolean"
+        },
+        {
+            "Name": "JobType",
+            "IsRequired": false,
+            "MaxLength": 50,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "JobStatus",
+            "IsRequired": false,
+            "MaxLength": 50,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "ModifiedBy",
+            "IsRequired": false,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "ModifiedDate",
+            "IsRequired": false,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "EmailName",
+            "IsRequired": false,
+            "MaxLength": 100,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "EmailSubject",
+            "IsRequired": false,
+            "MaxLength": 200,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "IsWrapped",
+            "IsRequired": true,
+            "FieldType": "boolean"
+        },
+        {
+            "Name": "TestEmailAddr",
+            "IsRequired": false,
+            "MaxLength": 128,
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "Category",
+            "IsRequired": true,
+            "MaxLength": 100,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "BccEmail",
+            "IsRequired": false,
+            "MaxLength": 100,
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "OriginalSchedTime",
+            "IsRequired": false,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "CreatedDate",
+            "IsRequired": true,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "CharacterSet",
+            "IsRequired": false,
+            "MaxLength": 30,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "IPAddress",
+            "IsRequired": false,
+            "MaxLength": 50,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "SalesForceTotalSubscriberCount",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SalesForceErrorSubscriberCount",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SendType",
+            "IsRequired": true,
+            "MaxLength": 128,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "DynamicEmailSubject",
+            "IsRequired": false,
+            "MaxLength": 200,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "SuppressTracking",
+            "IsRequired": true,
+            "MaxLength": 200,
+            "FieldType": "Boolean"
+        },
+        {
+            "Name": "SendClassificationType",
+            "IsRequired": false,
+            "MaxLength": 32,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "SendClassification",
+            "IsRequired": false,
+            "MaxLength": 32,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "ResolveLinksWithCurrentData",
+            "IsRequired": true,
+            "FieldType": "Boolean"
+        },
+        {
+            "Name": "EmailSendDefinition",
+            "IsRequired": false,
+            "MaxLength": 32,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "DeduplicateByEmail",
+            "IsRequired": true,
+            "FieldType": "Boolean"
+        },
+        {
+            "Name": "TriggererSendDefinitionObjectID",
+            "IsRequired": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "TriggeredSendCustomerKey",
+            "IsRequired": false,
+            "MaxLength": 36,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
+        }
+    ]
+}
