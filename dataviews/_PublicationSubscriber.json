@@ -1,0 +1,57 @@
+{
+    "CustomerKey" : "DATAVIEW_PublicationSubscriber", 
+    "Name"       : "DATAVIEW_PublicationSubscriber",
+    "Fields" : [
+        {
+            "Name": "PublicationID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "ListName",
+            "IsRequired": true,
+            "MaxLength" : 50,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "SubscriberId",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "TransactionalOptIn",
+            "IsRequired": true,
+            "FieldType": "Boolean"
+        },
+        {
+            "Name": "TransactionalOptInDate",
+            "IsRequired": true,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "TransactionalOptOutDate",
+            "IsRequired": false,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "MarketingOptIn",
+            "IsRequired": true,
+            "FieldType": "Boolean"
+        },
+        {
+            "Name": "MarketingOptInDate",
+            "IsRequired": true,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "MarketingOptOutDate",
+            "IsRequired": false,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
+        }
+    ]
+}
