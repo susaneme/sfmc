@@ -1,0 +1,55 @@
+{
+    "CustomerKey" : "DATAVIEW_Journey", 
+    "Name"       : "DATAVIEW_Journey",
+    "Fields" : [
+        {
+            "Name": "VersionID",
+            "IsRequired": true,
+            "MaxLength": 36,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "JourneyID",
+            "IsRequired": true,
+            "MaxLength": 36,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "JourneyName",
+            "IsRequired": true,
+            "MaxLength": 200,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "VersionNumber",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "CreatedDate",
+            "IsRequired": true,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "LastPublishedDate",
+            "IsRequired": false,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "ModifiedDate",
+            "IsRequired": true,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "JourneyStatus",
+            "IsRequired": true,
+            "MaxLength": 100,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
+        }
+    ]
+}
