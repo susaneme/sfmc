@@ -1,0 +1,33 @@
+{
+    "CustomerKey" : "DATAVIEW_MobileLineOrphanContactView", 
+    "Name"       : "DATAVIEW_MobileLineOrphanContactView",
+    "Fields" : [
+        {
+            "Name": "ContactID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "ContactKey",
+            "IsRequired": true,
+            "MaxLength": 254,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "AddressID",
+            "IsRequired": true,
+            "MaxLength": 254,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "CreatedDate",
+            "IsRequired": true,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
+        }
+    ]
+}
