@@ -77,6 +77,11 @@
             "Name": "PublishTime",
             "IsRequired": true,
             "FieldType": "Date"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
         }
     ]
 }
