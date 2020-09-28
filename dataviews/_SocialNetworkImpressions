@@ -1,0 +1,82 @@
+{
+    "CustomerKey" : "DATAVIEW_SocialNetworkImpressions", 
+    "Name"       : "DATAVIEW_SocialNetworkImpressions",
+    "Fields" : [
+        {
+            "Name": "JobID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "ListID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "RegionTitle",
+            "IsRequired": true,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "RegionDescription",
+            "IsRequired": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "RegionHTML",
+            "IsRequired": true,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "ContentRegionID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SocialSharingSiteID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SiteName",
+            "IsRequired": true,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "CountryCode",
+            "IsRequired": true,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "ReferringURL",
+            "IsRequired": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "IPAddress",
+            "IsRequired": false,
+            "MaxLength" : 50,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "TransactionTime",
+            "IsRequired": true,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "PublishedSocialContentStatusID",
+            "IsRequired": true,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "ShortCode",
+            "IsRequired": true,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "PublishTime",
+            "IsRequired": true,
+            "FieldType": "Date"
+        }
+    ]
+}
