@@ -1,0 +1,47 @@
+{
+    "CustomerKey" : "DATAVIEW_JourneyActivity", 
+    "Name"       : "DATAVIEW_JourneyActivity",
+    "Fields" : [
+        {
+            "Name": "VersionID",
+            "IsRequired": true,
+            "MaxLength": 36,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "ActivityID",
+            "IsRequired": true,
+            "MaxLength": 36,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "ActivityName",
+            "IsRequired": false,
+            "MaxLength": 200,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "ActivityExternalKey",
+            "IsRequired": true,
+            "MaxLength": 200,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "JourneyActivityObjectID",
+            "IsRequired": false,
+            "MaxLength": 36,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "ActivityType",
+            "IsRequired": false,
+            "MaxLength": 512,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
+        }
+    ]
+}
