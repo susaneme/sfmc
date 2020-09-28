@@ -1,0 +1,38 @@
+{
+    "CustomerKey" : "DATAVIEW_Coupon", 
+    "Name"       : "DATAVIEW_Coupon",
+    "Fields" : [
+        {
+            "Name": "Name",
+            "IsRequired": true,
+            "MaxLength" : 128,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "ExternalKey",
+            "IsRequired": true,
+            "MaxLength" : 36,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Description",
+            "IsRequired": true,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "BeginDate",
+            "IsRequired": true,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "ExpirationDate",
+            "IsRequired": true,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
+        }
+    ]
+}
