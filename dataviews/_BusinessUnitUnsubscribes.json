@@ -1,0 +1,38 @@
+{
+    "CustomerKey" : "DATAVIEW_BusinessUnitUnsubscribes", 
+    "Name"       : "DATAVIEW_BusinessUnitUnsubscribes",
+    "Fields" : [
+        {
+            "Name": "BusinessUnitID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SubscriberID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SubscriberKey",
+            "IsRequired": true,
+            "MaxLength ": 254,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "UnsubDateUTC",
+            "IsRequired": false,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "UnsubReason",
+            "IsRequired": false,
+            "MaxLength" : 100,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
+        }
+    ]
+}
