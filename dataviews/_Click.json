@@ -1,0 +1,97 @@
+{
+    "CustomerKey" : "DATAVIEW_Click", 
+    "Name"       : "DATAVIEW_Click",
+    "Fields" : [
+        {
+            "Name": "AccountID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "OYBAccountID",
+            "IsRequired": false,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "JobId",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "ListID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "BatchID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SubscriberID",
+            "IsRequired": true,
+            "FieldType": "Number"
+        },
+        {
+            "Name": "SubscriberKey",
+            "IsRequired": true,
+            "MaxLength ": 254,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "EventDate",
+            "IsRequired": true,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "IsUnique",
+            "IsRequired": true,
+            "FieldType": "Boolean"
+        },
+        {
+            "Name": "Domain",
+            "IsRequired": true,
+            "MaxLength" : 128,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "URL",
+            "IsRequired": false,
+            "MaxLength" : 900,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "LinkName",
+            "IsRequired": false,
+            "MaxLength" : 1024,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "LinkContent",
+            "IsRequired": false,
+            "MaxLength" : 4000,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "IsUnique",
+            "IsRequired": false,
+            "FieldType": "Boolean"
+        },
+        {
+            "Name": "TriggererSendDefinitionObjectID",
+            "IsRequired": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "TriggeredSendCustomerKey",
+            "IsRequired": false,
+            "MaxLength" : 36,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "SFMCLastModified",
+          	"DefaultValue": "GetDate()",
+            "FieldType": "Date"
+        }
+    ]
+}
