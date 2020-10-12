@@ -1,4 +1,4 @@
-Code,Name,Price,Type,Link,ImageLink,Description
+ProductCode,Name,RegularPrice,ProductType,ProductURL,ImageURL,ProductDescription
 pc0000001,Product A, 10.99 kr. ,Shoes,https://www.marketingdeveloper.io/sample-store/p/pc0000001,https://static1.squarespace.com/static/5f5729c298bf2728f809adca/5f806a906cbf2c124e1e90ad/5f807104bf106f48e58c58b8/1602253063421/ProductA.jpg?format=750w,Yay
 pc0000002,Product B, 11.99 kr. ,Shoes,https://www.marketingdeveloper.io/sample-store/p/pc0000002,https://static1.squarespace.com/static/5f5729c298bf2728f809adca/5f806a906cbf2c124e1e90ad/5f80711c5e38f224fe230875/1602253087503/ProductB.jpg?format=750w,Nice!
 pc0000003,Product C, 12.99 kr. ,Shoes,https://www.marketingdeveloper.io/sample-store/p/pc0000003,https://static1.squarespace.com/static/5f5729c298bf2728f809adca/5f806a906cbf2c124e1e90ad/5f807134e790d477f1532537/1602253111002/ProductC.jpg?format=750w,Oh boy
