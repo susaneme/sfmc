@@ -1,186 +1,191 @@
 {
-    "CustomerKey" : "DATAVIEW_SMSMessageTracking", 
-    "Name"        : "DATAVIEW_SMSMessageTracking",
-    "Fields" : [
+    CustomerKey: "DATAVIEW_SMSMESSAGETRACKING", 
+    Name       : "DATAVIEW_SMSMESSAGETRACKING",
+    Fields: [
         {
-            "Name": "MobileMessageTrackingID",
-            "IsRequired": true,
-            "FieldType": "Number"
+            Name: "MobileMessageTrackingID",
+            IsRequired: true,
+            FieldType: "Number"
         },
         {
-            "Name": "EID",
-            "FieldType": "Number"
+            Name: "EID",
+            FieldType: "Number"
         },
         {
-            "Name": "MID",
-            "FieldType": "Number"
+            Name: "MID",
+            FieldType: "Number"
         },
         {
-            "Name": "Mobile",
-            "IsRequired": true,
-            "FieldType": "Phone"
+            Name: "Mobile",
+            IsRequired: true,
+            FieldType: "Phone" //varchar(15)
         },
         {
-            "Name": "MessageID",
-            "IsRequired": true,
-            "FieldType": "Number"
+            Name: "MessageID",
+            IsRequired: true,
+            FieldType: "Number"
         },
         {
-            "Name": "KeywordID",
-            "MaxLength": 50,
-            "FieldType": "Text"
+            Name: "KeywordID",
+            MaxLength: 150,
+            FieldType: "Text"
         },
         {
-            "Name": "CodeID",
-            "MaxLength": 50,
-            "FieldType": "Text"
+            Name: "CodeID",
+            MaxLength: 150,
+            FieldType: "Text"
         },
         {
-            "Name": "ConversationID",
-            "MaxLength": 50,
-            "FieldType": "Text"
+            Name: "ConversationID",
+            MaxLength: 150,
+            FieldType: "Text"
         },
         {
-            "Name": "CampaignID",
-            "FieldType": "Number"
+            Name: "CampaignID",
+            FieldType: "Number"
         },
         {
-            "Name": "Sent",
-            "FieldType": "Boolean"
+            Name: "Sent",
+            FieldType: "Boolean"
         },
         {
-            "Name": "Delivered",
-            "FieldType": "Boolean"
+            Name: "Delivered",
+            FieldType: "Boolean"
         },
         {
-            "Name": "Undelivered",
-            "FieldType": "Boolean"
+            Name: "Undelivered",
+            FieldType: "Boolean"
         },
         {
-            "Name": "Unsub",
-            "FieldType": "Number"
+            Name: "Unsub",
+            FieldType: "Number"
         },
         {
-            "Name": "OptIn",
-            "FieldType": "Boolean"
+            Name: "OptIn",
+            FieldType: "Boolean"
         },
         {
-            "Name": "OptOut",
-            "FieldType": "Boolean"
+            Name: "OptOut",
+            FieldType: "Boolean"
         },
         {
-            "Name": "Outbound",
-            "FieldType": "Boolean"
+            Name: "Outbound",
+            FieldType: "Boolean"
         },
         {
-            "Name": "Inbound",
-            "FieldType": "Boolean"
+            Name: "Inbound",
+            FieldType: "Boolean"
         },
         {
-            "Name": "CreateDateTime",
-            "IsRequired": true,
-            "FieldType": "Date"
+            Name: "CreateDateTime",
+            IsRequired: true,
+            FieldType: "Date"
         },
         {
-            "Name": "ModifiedDateTime",
-            "IsRequired": true,
-            "FieldType": "Date"
+            Name: "ModifiedDateTime",
+            IsRequired: true,
+            FieldType: "Date"
         },
         {
-            "Name": "ActionDateTime",
-            "IsRequired": true,
-            "FieldType": "Date"
+            Name: "ActionDateTime",
+            IsRequired: true,
+            FieldType: "Date"
         },
         {
-            "Name": "MessageText",
-            "MaxLength": 160,
-            "FieldType": "Text"
+            Name: "MessageText",
+            MaxLength: 160,
+            FieldType: "Text"
         },
         {
-            "Name": "IsTest",
-            "FieldType": "Boolean"
+            Name: "IsTest",
+            FieldType: "Boolean"
         },
         {
-            "Name": "MobileMessageRecurrenceID",
-            "FieldType": "Number"
+            Name: "MobileMessageRecurrenceID",
+            FieldType: "Number"
         },
         {
-            "Name": "ResponseToMobileMessageTrackingID",
-            "FieldType": "Number"
+            Name: "ResponseToMobileMessageTrackingID",
+            FieldType: "Number"
         },
         {
-            "Name": "IsValid",
-            "FieldType": "Boolean"
+            Name: "IsValid",
+            FieldType: "Boolean"
         },
         {
-            "Name": "InvalidationCode",
-            "FieldType": "Number"
+            Name: "InvalidationCode",
+            FieldType: "Number"
         },
         {
-            "Name": "SendID",
-            "FieldType": "Number"
+            Name: "SendID",
+            FieldType: "Number"
         },
         {
-            "Name": "SendSplitID",
-            "FieldType": "Number"
+            Name: "SendSplitID",
+            FieldType: "Number"
         },
         {
-            "Name": "SendSegmentID",
-            "FieldType": "Number"
+            Name: "SendSegmentID",
+            FieldType: "Number"
         },
         {
-            "Name": "SendGroupID",
-            "FieldType": "Number"
+            Name: "SendJobID",
+            FieldType: "Number"
         },
         {
-            "Name": "SendPersonID",
-            "FieldType": "Number"
+            Name: "SendGroupID",
+            FieldType: "Number"
         },
         {
-            "Name": "SubscriberID",
-            "FieldType": "Number"
+            Name: "SendPersonID",
+            FieldType: "Number"
         },
         {
-            "Name": "SubscriberKey",
-            "MaxLength": 254,
-            "FieldType": "Text"      
+            Name: "SubscriberID",
+            FieldType: "Number"
         },
         {
-            "Name": "SMSStandardStatusCodeId",
-            "FieldType": "Number"
+            Name: "SubscriberKey",
+            MaxLength: 254,
+            FieldType: "Text"      
         },
         {
-            "Name": "Description",
-            "MaxLength": 254,
-            "FieldType": "Text"
+            Name: "SMSStandardStatusCodeId",
+            FieldType: "Number"
         },
         {
-            "Name": "Name",
-            "MaxLength": 254,
-            "FieldType": "Text"
+            Name: "Description",
+            MaxLength: 254,
+            FieldType: "Text"
         },
         {
-            "Name": "ShortCode",
-            "FieldType": "Number"
+            Name: "Name",
+            MaxLength: 254,
+            FieldType: "Text"
         },
         {
-            "Name": "SharedKeyword",
-            "MaxLength": 50,
-            "FieldType": "Text"
+            Name: "ShortCode",
+            MaxLength: 150,
+            FieldType: "Text"
         },
         {
-            "Name": "Ordinal",
-            "FieldType": "Number"
+            Name: "SharedKeyword",
+            MaxLength: 150,
+            FieldType: "Text"
         },
         {
-            "Name": "FromName",
-            "MaxLength": 254,
-            "FieldType": "Text"
+            Name: "Ordinal",
+            FieldType: "Number"
         },
         {
-            "Name": "SFMCLastModified",
-          	"DefaultValue": "GetDate()",
-            "FieldType": "Date"
+            Name: "FromName",
+            MaxLength: 50,
+            FieldType: "Text"
+        },
+        {
+            Name: "SFMCLastModified",
+          	DefaultValue: "GetDate()",
+            FieldType: "Date"
         }
     ]
 }
